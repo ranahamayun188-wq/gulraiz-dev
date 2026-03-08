@@ -182,7 +182,7 @@
 
 <nav>
   <div class="nav-left">
-    <a href="portfolio.html" class="back-btn">← Portfolio</a>
+    <a href="index.html" class="back-btn">← Portfolio</a>
     <div class="logo">Nexa<span>Agency</span></div>
   </div>
   <ul>
@@ -337,8 +337,8 @@
     <h2 class="cta-title">Ready to Build <span>Something Great?</span></h2>
     <p class="cta-sub">Let's turn your vision into a digital reality. Get a free consultation and project estimate today.</p>
     <div class="cta-btns">
-      <a href="mailto:ranagulraiz188@gmail.com" class="btn-primary">Start a Project →</a>
-      <a href="portfolio.html" class="btn-secondary">View Portfolio</a>
+      <a href="/cdn-cgi/l/email-protection#eb998a858a8c9e87998a8291dad3d3ab8c868a8287c5888486" class="btn-primary">Start a Project →</a>
+      <a href="index.html" class="btn-secondary">View Portfolio</a>
     </div>
   </div>
 </section>
@@ -349,11 +349,11 @@
   <div class="footer-links">
     <a href="#">GitHub</a>
     <a href="#">LinkedIn</a>
-    <a href="portfolio.html">Portfolio</a>
+    <a href="index.html">Portfolio</a>
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // Hamburger
 const ham = document.getElementById('ham');
 const mobMenu = document.getElementById('mobMenu');
@@ -382,11 +382,4 @@ const co=new IntersectionObserver(entries=>{
     if(!e.isIntersecting)return;
     const el=e.target,target=parseInt(el.dataset.target),suffix=el.dataset.suffix||'';
     let cur=0; const inc=target/60;
-    const t=setInterval(()=>{cur=Math.min(cur+inc,target);el.textContent=Math.floor(cur)+suffix;if(cur>=target)clearInterval(t);},25);
-    co.unobserve(el);
-  });
-},{threshold:0.5});
-statEls.forEach(el=>co.observe(el));
-</script>
-</body>
-</html>
+    const t=setInterval(()=>{cur=Math.min(cur+inc,target);el.textContent=Math.floor(cur)+su
